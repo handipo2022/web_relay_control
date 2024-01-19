@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="data:," />
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+    <script src="./script.js"></script>
+    <title>ESP8266 Relay WebServer</title>
+  </head>
+  <body style="background-image: linear-gradient(to right, brown, black)">
+    <h1 style="color: white">ESP8266 Relay Web Server</h1>
+    <p>Relay 1 state <strong> %STATE1%</strong></p>
+    <p>
+      <button onclick="buttonOn(1)" class="button">ON</button>
+      <button onclick="buttonOff(1)" class="button button2">OFF</button>
+    </p>
+
+    <p>Relay 2 state <strong> %STATE2%</strong></p>
+    <p>
+      <button onclick="buttonOn(2)" class="button">ON</button>
+      <button onclick="buttonOff(2)" class="button button2">OFF</button>
+    </p>
+    <p>Relay 3 state <strong> %STATE3%</strong></p>
+
+    <p>
+      <button onclick="buttonOn(3)" class="button">ON</button>
+      <button onclick="buttonOff(3)" class="button button2">OFF</button>
+    </p>
+
+    <p>Relay 4 state <strong> %STATE4%</strong></p>
+    <p>
+      <button onclick="buttonOn(4)" class="button">ON</button>
+      <button onclick="buttonOff(4)" class="button button2">OFF</button>
+    </p>
+    <!-- <p>
+        <span class="sensor-labels">Temperature</span>
+        <span id="temperature">%TEMPERATURE%</span>
+        <sup class="units">&deg;C</sup>
+    </p>
+    
+    <p>
+        <span class="sensor-labels">Humidity</span>
+        <span id="humidity">%HUMIDITY%</span>
+        <sup class="units">&#37;</sup>
+    </p>
+     -->
+  </body>
+  <script>
+    // setInterval(function(){
+    //     var xhttp = new XMLHttpRequest();
+    //     xhttp.onreadystatechange = function(){
+    //         if(this.readyState==4 && this.status==200){
+    //             document.getElementById("temperature").innerHTML = this.responseText;
+    //         }
+    //     };
+    //     xhttp.open("GET","/temperature",true);
+    //     xhttp.send();
+    // }, 10000);
+    // setInterval(function(){
+    //     var xhttp = new XMLHttpRequest();
+    //     xhttp.onreadystatechange = function(){
+    //         if(this.readyState==4 && this.status==200){
+    //             document.getElementById("humidity").innerHTML = this.responseText;
+    //         }
+    //     };
+    //     xhttp.open("GET","/humidity",true);
+    //     xhttp.send();
+    // }, 10000);
+  </script>
+</html>

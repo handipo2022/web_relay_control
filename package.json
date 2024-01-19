@@ -1,0 +1,15 @@
+{
+  "name": "relayesp8266",
+  "version": "1.0.0",
+  "description": "control relay using esp8266 as client and expressjs as server with http protocol",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "handipo",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mysql": "^2.18.1"
+  }
+}
